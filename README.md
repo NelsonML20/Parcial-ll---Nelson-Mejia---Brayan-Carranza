@@ -39,3 +39,13 @@ Al tratar con datos privados y de salud (pacientes, diagnósticos y medicamentos
     *   *Mitigación:* Instalar un certificado SSL/TLS en el servidor web para forzar que todas las conexiones utilicen el protocolo encriptado HTTPS.
 4.  **Vulnerabilidad a Cross-Site Scripting (XSS):** Si un atacante inyecta scripts Javascript a través del campo "diagnóstico", estos podrían ejecutarse en los navegadores de otros usuarios que consulten el historial de asistencias.
     *   *Mitigación:* Aplicar la función `htmlspecialchars()` a todo texto extraído de la base de datos antes de mostrarlo en la interfaz HTML.
+  
+
+Nombre de la Tabla: usuarios
+<img width="616" height="96" alt="image" src="https://github.com/user-attachments/assets/e3b86440-9bbe-4120-8c33-11886c93e7e8" />
+
+Nombre de la Tabla: asistencia
+
+<img width="619" height="141" alt="image" src="https://github.com/user-attachments/assets/5d19b317-3908-4c63-9216-62720cf4e64e" />
+
+
