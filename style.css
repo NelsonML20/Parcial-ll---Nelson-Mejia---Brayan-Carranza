@@ -1,0 +1,136 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4fbf8;
+    color: #2d3748;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #285e61;
+    margin-bottom: 20px;
+}
+
+.login-container {
+    margin-top: 50px;
+}
+
+form {
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 25px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #fdfdfd;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #319795;
+    box-shadow: 0 0 0 2px rgba(49, 151, 149, 0.2);
+}
+
+button {
+    background-color: #319795;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #285e61;
+}
+
+table {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #edf2f7;
+}
+
+th {
+    background-color: #e6fffa;
+    color: #234e52;
+    font-weight: 600;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover {
+    background-color: #f7fafc;
+}
+
+a {
+    color: #319795;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #234e52;
+}
+
+.logout-link {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #e53e3e;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.logout-link:hover {
+    background-color: #c53030;
+    color: white;
+}
+
+.error-msg {
+    color: #e53e3e;
+    background-color: #fff5f5;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #feb2b2;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+}
