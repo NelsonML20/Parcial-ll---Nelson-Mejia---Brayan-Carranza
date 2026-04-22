@@ -20,6 +20,7 @@ if (isset($_POST['btn_login'])) {
     }
 }
 
+
 // Verificar si hay una sesión activa
 $es_admin = isset($_SESSION['admin']);
 
